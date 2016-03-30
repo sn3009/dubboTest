@@ -1,14 +1,16 @@
 package com.dubbo.test.impl;
 
-import com.dubbo.test.DubboTestInterface;
+import com.dubbotest.service.TestService;
+import com.entity.shuttle.test.TestEntity;
 
-public class DubboTestImpl implements DubboTestInterface {
+public class DubboTestImpl implements TestService {
 
-	public String sayHello(String name) {
+	public TestEntity sayHello(String name) {
 		// TODO Auto-generated method stub
-		String retStr = "hello, " + name + " welcom to dubbo's world";
-		System.out.println(retStr);
-		return retStr;
+		TestEntity entity = new TestEntity();
+		entity.setHelloMessage("hello, " + name + " welcom to dubbo's world");
+		System.out.println("server" + entity.getHelloMessage());
+		return entity;
 	}
 
 }

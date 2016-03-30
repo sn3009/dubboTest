@@ -9,7 +9,7 @@ public class DubboTestImpl implements TestService {
 		// TODO Auto-generated method stub
 		TestEntity entity = new TestEntity();
 		entity.setHelloMessage("hello, " + name + " welcom to dubbo's world");
-		System.out.println("server" + entity.getHelloMessage());
+		System.out.println("server:" + entity.getHelloMessage());
 		return entity;
 	}
 

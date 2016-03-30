@@ -1,6 +1,8 @@
 package com.entity.shuttle.test;
 
-public class TestEntity {
+import java.io.Serializable;
+
+public class TestEntity implements Serializable {
 	
 	public String helloMessage;
 

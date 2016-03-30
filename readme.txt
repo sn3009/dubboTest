@@ -1,5 +1,6 @@
-1. DubboTest Îª provider
-2. DubboConsumer Îª consumer
-3. Ä¬ÈÏÉèÖÃÎªmulticast, ÈôÓĞzookeeper¿ÉÒÔ¿ªÆôÁ½¸öÅäÖÃÎÄ¼şÖĞµÄ<dubbo:registry  protocol="zookeeper" address="10.10.212.147:2181" />²¢ĞŞ¸ÄipµØÖ·
-4. ÏÂÔØÔ´Âëºó£¬ÔÚDubboConsumerÖĞÒıÓÃDubboTestÏîÄ¿£¬»ò½«DubboTest´ò°üjarºóÒıÓÃ
-5. ÏÈÆô¶¯DubboTest£¬È»ºóÆô¶¯DubboConsumer
+1. DubboTest ä¸º provider
+2. DubboConsumer ä¸º consumer
+3. é»˜è®¤è®¾ç½®ä¸ºmulticast, è‹¥æœ‰zookeeperå¯ä»¥å¼€å¯ä¸¤ä¸ªé…ç½®æ–‡ä»¶ä¸­çš„<dubbo:registry  protocol="zookeeper" address="10.10.212.147:2181" />å¹¶ä¿®æ”¹ipåœ°å€
+4. ä¸‹è½½æºç åï¼Œåˆ†åˆ«åœ¨DubboTestå’ŒDubboConsumerä¸­å¼•ç”¨DubboEntityå’ŒDubboTestServiceä¸¤ä¸ªé¡¹ç›®ï¼Œæˆ–ä¸¤ä¸ªé¡¹ç›®æ‰“åŒ…jaråå¼•ç”¨
+5. åœ¨DubboTestServiceé¡¹ç›®ä¸­å¼•ç”¨DubboEntity
+6. å…ˆå¯åŠ¨DubboTestï¼Œç„¶åå¯åŠ¨DubboConsumer
